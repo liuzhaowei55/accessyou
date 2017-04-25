@@ -1,0 +1,22 @@
+{
+    "name": "moorper/accessyou",
+    "description": "accessyou vendor",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [{
+        "name": "liuzhaowei",
+        "email": "liuzhaowei55@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "^6.2",
+    },
+    "autoload": {
+        "psr-4": {
+            "Moorper\\Accessyou\\": "src/",
+            "Moorper\\Accessyou\\Tests\\": "tests/"
+        },
+        "files": []
+    }
+}
